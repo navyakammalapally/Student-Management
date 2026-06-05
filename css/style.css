@@ -1,21 +1,113 @@
-.profile-img,
-.rounded-circle {
-    object-fit: cover;
+/* General Styling */
+
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
 }
 
 .page-title {
     text-align: center;
     margin: 30px 0;
     color: #0d6efd;
+    font-weight: bold;
 }
 
-/* Mobile */
+/* Cards */
+
+.card {
+    border: none;
+    border-radius: 10px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
+
+/* Feature Images */
+
+.card-img-top {
+    height: 220px;
+    object-fit: cover;
+}
+
+/* Dashboard Cards */
+
+.stats-card {
+    border-radius: 10px;
+}
+
+/* Profile Image */
+
+.profile-img,
+.rounded-circle {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+/* Forms */
+
+form {
+    max-width: 900px;
+    margin: auto;
+}
+
+/* Footer */
+
+footer {
+    margin-top: 40px;
+}
+
+/* Navbar */
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+/* Buttons */
+
+.btn {
+    border-radius: 6px;
+}
+
+/* Mobile Devices */
+
 @media (max-width: 575.98px) {
-    .card {
-        margin: 10px;
+
+    .display-4 {
+        font-size: 2rem;
     }
 
+    .card-img-top {
+        height: 180px;
+    }
+
+    .profile-img,
     .rounded-circle {
-        width: 120px !important;
+        width: 120px;
+        height: 120px;
+    }
+
+    .page-title {
+        font-size: 1.8rem;
+    }
+}
+
+/* Tablet Devices */
+
+@media (min-width: 768px) {
+
+    .card-img-top {
+        height: 220px;
+    }
+}
+
+/* Desktop Devices */
+
+@media (min-width: 992px) {
+
+    .card-img-top {
+        height: 250px;
     }
 }
