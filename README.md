@@ -122,21 +122,16 @@ student-management-portal/
 ## Screenshots
 
 ### Home Page
-
 ![Home Page](screenshots/home-page.png)
 
 ### Registration Form
-
-![Registration Form](screenshots/registration-form.png)
+![Registration Form](screenshots/registration-form.PNG)
 
 ### Dashboard
-
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](screenshots/dashboard.PNG)
 
 ### Mobile View
-
-![Mobile View](screenshots/mobile-view.png)
-
+![Mobile View](screenshots/mobile-view.PNG)
 ---
 
 ## How to Run the Project
