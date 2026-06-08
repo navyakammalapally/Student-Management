@@ -143,16 +143,6 @@ student-management-portal/
 
 ---
 
-## GitHub Repository
+## Live Demo
 
-Repository Link:
-
-https://github.com/navyakammalapally/Student-Management
-
----
-
-## Author
-
-**Kammalapally Navya**
-
-Student Management Portal Project using Bootstrap 5.
+https://navyakammalapally.github.io/Student-Management/
